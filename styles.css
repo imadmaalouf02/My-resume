@@ -598,8 +598,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .project-tags {
-    display: flex;
-    flex-wrap: wrap;
+    width: 960px;
+    max-width: 100%;
     gap: var(--spacing-xs);
     margin-bottom: var(--spacing-md);
 }

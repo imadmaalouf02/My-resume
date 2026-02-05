@@ -633,6 +633,30 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateX(5px);
 }
 
+/* Project images styling */
+.project-images {
+    display: flex;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.project-image {
+    width: 140px;
+    max-width: 40%;
+    height: auto;
+    border-radius: var(--radius-sm);
+    object-fit: cover;
+    box-shadow: var(--shadow-sm);
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.project-image:hover {
+    transform: scale(1.03);
+    box-shadow: var(--shadow-md);
+}
+
 /* ===== Education Section ===== */
 .education {
     background-color: var(--bg-primary);
@@ -888,6 +912,11 @@ h1, h2, h3, h4, h5, h6 {
     .projects-grid,
     .education-grid {
         grid-template-columns: 1fr;
+    }
+
+    .project-image {
+        width: 100%;
+        max-width: 100%;
     }
 }
 

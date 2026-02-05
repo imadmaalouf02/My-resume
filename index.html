@@ -266,25 +266,72 @@
                     <div class="project-icon">
                         <i class="fas fa-image"></i>
                     </div>
+
                     <h3 class="project-title">Image Prompt Segmentation</h3>
+
                     <p class="project-description">
-
-                        Projets intégrant vision par ordinateur et NLP : segmentation automatique d'images, 
-                        annotation, interaction vocale et évaluation de prompts. Déploiement complet avec 
-                        modèles Transformers.
-
+                        Projet avancé de <strong>vision par ordinateur multimodale</strong> visant à créer
+                        un <strong>pont intelligent entre une requête textuelle utilisateur (prompt)</strong>
+                        et la <strong>segmentation d’objets dans une image</strong>.
+                        <br><br>
+                        Le système prend en entrée une <strong>image</strong> et une
+                        <strong>commande textuelle en langage naturel</strong>
+                        (ex. : <em>“highlight dogs in the picture”</em>), puis génère en sortie
+                        une image traitée où les objets demandés sont
+                        <strong>filtrés, segmentés et mis en évidence</strong>.
+                        <br><br>
+                        Le projet s’appuie sur des <strong>Foundation Models</strong> et des
+                        <strong>LLMs multimodaux</strong> (Segment Anything, Gemini, PaLM-E, Qwen-VL),
+                        combinant <strong>NLP, Prompt Engineering</strong> et <strong>Computer Vision</strong>
+                        pour interpréter les requêtes utilisateur et guider la segmentation.
+                        <br><br>
+                        Une approche de <strong>Weakly Supervised Learning</strong> est utilisée via la
+                        génération automatique de <strong>pseudo-masques</strong>, réduisant fortement
+                        le coût d’annotation manuelle tout en permettant l’exploitation de
+                        <strong>datasets à grande échelle</strong>.
+                        <br><br>
+                        Le système est conçu selon une <strong>architecture modulaire et évolutive</strong>,
+                        avec une implémentation manuelle des composants pour des raisons pédagogiques,
+                        puis une transition vers des frameworks optimisés orientés performance et précision.
                     </p>
+
+                    <!-- Images -->
+                    <div class="project-images">
+                        <a href="images/prompt_bridge.png" target="_blank">
+                            <img src="images/prompt_bridge.png" 
+                                alt="Bridge between text prompt and image segmentation" 
+                                class="project-image">
+                        </a>
+                        <a href="images/prompt_example.png" target="_blank">
+                            <img src="images/prompt_example.png" 
+                                alt="Prompt-based image segmentation example" 
+                                class="project-image">
+                        </a>
+                    </div>
+
+                    <!-- Skills / Technologies -->
                     <div class="project-tags">
                         <span class="project-tag">Computer Vision</span>
-                        <span class="project-tag">NLP</span>
+                        <span class="project-tag">Image Segmentation</span>
+                        <span class="project-tag">Neural Networks</span>
+                        <span class="project-tag">PyTorch</span>
                         <span class="project-tag">Transformers</span>
+                        <span class="project-tag">Foundation Models</span>
+                        <span class="project-tag">Multimodal Learning</span>
+                        <span class="project-tag">NLP</span>
+                        <span class="project-tag">LLMs</span>
+                        <span class="project-tag">Prompt Engineering</span>
+                        <span class="project-tag">Weakly Supervised Learning</span>
                     </div>
+
                     <div class="project-links">
-                        <a href="#" class="project-link" target="_blank">
+                        <a href="https://images-segmmentation-prompt.readthedocs.io/fr/latest/index.html"
+                        class="project-link" target="_blank">
                             <i class="fas fa-book"></i> Documentation
                         </a>
                     </div>
                 </div>
+
 
                <div class="project-card">
                <div class="project-icon">
